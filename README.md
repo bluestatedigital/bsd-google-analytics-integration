@@ -5,6 +5,7 @@ Google Analytics Integration library for use on sites that use the BSD Tools, de
 
 <h1>Installation</h1>
 In order to correctly install the `ga_integration-min.js` snippet, you need to break the standard Google Analytics snippet in half. This is so that the custom variables set in the script set before the pageview, but after the tracker is created. 
+
 ```html
 	<!-- START Google Analytics -->
 	<script>
