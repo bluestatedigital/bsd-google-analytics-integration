@@ -491,8 +491,9 @@ _gaq.push(['_setSiteSpeedSampleRate', 10],["_setAllowAnchor", true], ["_setAllow
 
 	/*
 	Rest of the code takes place at window.onload
+	4-9-2018: update jQuery alias $(window).on('load', function{}) instead of .onload
 	*/
-		$(window).load(function() {
+		$(window).on('load', function() {
 			
 			/*Optimizely Experiment Tracking*/
 			

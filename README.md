@@ -8,6 +8,7 @@ In order to correctly install the `ga_integration-min.js` snippet, you need to b
 
 ```html
 	<!-- START Google Analytics -->
+	<script src="//s.bsd.net/bsdaction/default/page/-/js/analytics/ga_integration-min.js"></script>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,10 +17,7 @@ In order to correctly install the `ga_integration-min.js` snippet, you need to b
 	ga('create', '<!--place id here-->', 'auto', {'allowLinker': true, 'siteSpeedSampleRate': 20});
 	ga('require', 'linker');
 	//See https://github.com/bluestatedigital/bsd-google-analytics-integration#configuration for configuration options
-	var ga_integration_config={};
-	</script>
-	<script src="//s.bsd.net/bsdaction/default/page/-/js/analytics/ga_integration-min.js"></script>
-	<script>
+	var ga_integration_config={ /* Your config here */ };
 	ga('send', 'pageview');
 	</script>
 	<!-- END Google Analytics -->
